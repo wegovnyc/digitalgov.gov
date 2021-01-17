@@ -8,7 +8,7 @@
           <header>
 
             {{- if .Params.github -}}
-              <img class="profile" src="https://github.com/{{- .Params.github -}}.png?size=100" srcset="https://www.github.com/{{-  .Params.github -}}.png?size=200" alt="Photo: {{- .Params.display_name -}}">
+              <img class="profile" src="https://github.com/{{- .Params.github -}}.png?size=100" srcset="https://www.github.com/{{- .Params.github -}}.png?size=200" alt="Photo: {{- .Params.display_name -}}">
             {{- else -}}
               <img class="profile" src="{{- "img/digit-light.png" | absURL -}}" alt="Photo: {{- .Params.display_name -}}">
             {{- end -}}
@@ -51,7 +51,7 @@
                   {{- if .Params.github -}}
                     <li><a class="github" rel="external" title="{{- .Params.display_name }} on GitHub" href="http://www.github.com/{{- .Params.github -}}"><i class="fab fa-github-square"></i></a></li>
                   {{- end -}}
-                  {{-  if .OutputFormats.Get "RSS" -}}<li><a class="rss" title="RSS Feed for {{ .Params.display_name -}}" href="{{- .RelPermalink -}}"><i class="fas fa-rss-square"></i></a></li>{{- end -}}
+                  {{- if .OutputFormats.Get "RSS" -}}<li><a class="rss" title="RSS Feed for {{ .Params.display_name -}}" href="{{- .RelPermalink -}}"><i class="fas fa-rss-square"></i></a></li>{{- end -}}
                   <li><a class="json" title="API for {{ .Params.display_name -}}" href="{{- .Permalink -}}index.json"><i class="fab fa-js-square"></i></a></li>
                 </ul>
               </div>

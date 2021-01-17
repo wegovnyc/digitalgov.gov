@@ -19,17 +19,17 @@
 
         {{- if not (eq $prev_item 0) -}}
 
-          {{- $point_page := $.Site.GetPage $point_item.path  -}}
+          {{- $point_page := $.Site.GetPage $point_item.path -}}
           {{- $prev_page := $.Site.GetPage $prev_item.path -}}
 
-          {{- if eq $current_url $point_page.Permalink  -}}
-            <a class="prev-item usa-button usa-button--outline" href="{{- $prev_page.Permalink  -}}" title="{{- $prev_item.title -}}">
+          {{- if eq $current_url $point_page.Permalink -}}
+            <a class="prev-item usa-button usa-button--outline" href="{{- $prev_page.Permalink -}}" title="{{- $prev_item.title -}}">
               Previous
             </a>
           {{- end -}}
 
-          {{- if eq $current_url $prev_page.Permalink  -}}
-            <a class="next-item usa-button" href="{{- $point_page.Permalink  -}}" title="{{- $point_item.title -}}">
+          {{- if eq $current_url $prev_page.Permalink -}}
+            <a class="next-item usa-button" href="{{- $point_page.Permalink -}}" title="{{- $point_item.title -}}">
               Next
             </a>
           {{- end -}}
@@ -45,17 +45,17 @@
 
             {{- if not (eq $prev_item 0) -}}
 
-              {{- $point_page := $.Site.GetPage $point_item.path  -}}
+              {{- $point_page := $.Site.GetPage $point_item.path -}}
               {{- $prev_page := $.Site.GetPage $prev_item.path -}}
 
-              {{- if eq $current_url $point_page.Permalink  -}}
-                <a class="prev-item usa-button usa-button--outline" href="{{- $prev_page.Permalink  -}}" title="{{- $prev_item.title -}}">
+              {{- if eq $current_url $point_page.Permalink -}}
+                <a class="prev-item usa-button usa-button--outline" href="{{- $prev_page.Permalink -}}" title="{{- $prev_item.title -}}">
                   Previous
                 </a>
               {{- end -}}
 
-              {{- if eq $current_url $prev_page.Permalink  -}}
-                <a class="next-item usa-button" href="{{- $point_page.Permalink  -}}" title="{{- $point_item.title -}}">
+              {{- if eq $current_url $prev_page.Permalink -}}
+                <a class="next-item usa-button" href="{{- $point_page.Permalink -}}" title="{{- $point_item.title -}}">
                   Next
                 </a>
               {{- end -}}
@@ -70,17 +70,17 @@
 
                 {{- if not (eq $prev_item 0) -}}
 
-                  {{- $point_page := $.Site.GetPage $point_item.path  -}}
+                  {{- $point_page := $.Site.GetPage $point_item.path -}}
                   {{- $prev_page := $.Site.GetPage $prev_item.path -}}
 
-                  {{- if eq $current_url $point_page.Permalink  -}}
-                    <a class="prev-item usa-button usa-button--outline" href="{{- $prev_page.Permalink  -}}" title="{{- $prev_item.title -}}">
+                  {{- if eq $current_url $point_page.Permalink -}}
+                    <a class="prev-item usa-button usa-button--outline" href="{{- $prev_page.Permalink -}}" title="{{- $prev_item.title -}}">
                       Previous
                     </a>
                   {{- end -}}
 
-                  {{- if eq $current_url $prev_page.Permalink  -}}
-                    <a class="next-item usa-button" href="{{- $point_page.Permalink  -}}" title="{{- $point_item.title -}}">
+                  {{- if eq $current_url $prev_page.Permalink -}}
+                    <a class="next-item usa-button" href="{{- $point_page.Permalink -}}" title="{{- $point_item.title -}}">
                       Next
                     </a>
                   {{- end -}}
@@ -111,7 +111,7 @@
             {{- end -}}
           {{- end -}}
 
-          {{- if eq $current_url $point_item.Permalink  -}}
+          {{- if eq $current_url $point_item.Permalink -}}
             {{- if not (eq $prev_item 0) -}}
               <a class="prev-item usa-button usa-button--outline" href="{{- $prev_item.Permalink | relURL -}}" title="{{- $prev_item.Title -}}">
                 Previous
@@ -124,7 +124,7 @@
           {{- end -}}
 
           {{- if not (eq $prev_item 0) -}}
-            {{- if eq $current_url $prev_item.Permalink  -}}
+            {{- if eq $current_url $prev_item.Permalink -}}
               <a class="next-item usa-button" href="{{- $point_item.Permalink | relURL -}}" title="{{- $point_item.Title -}}">
                 Next
               </a>
