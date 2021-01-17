@@ -1,7 +1,6 @@
 ---
 title: Events
-deck: "**Digital.gov** provides free webinars that highlight the innovations,
-  case studies, tools, and resources people in government need most."
+deck: "WeGov.NYC promotes events relevant to people who want to make New York City the world’s best."
 summary: Register for Digital.gov webinars, interviews, community of practice
   meetings, and other events with digital leaders from across the public and
   private sectors.

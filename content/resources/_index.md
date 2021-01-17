@@ -1,6 +1,6 @@
 ---
 title: "Guides and Resources"
-deck: ":evergreen_tree: Essential ‘how-to’ guidance for product managers in government."
+deck: "Knowledge for people working to make New York City the world’s best."
 summary: "Essential ‘how-to’ guidance from across government product managers in government."
 aliases:
   - /tools/

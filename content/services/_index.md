@@ -1,5 +1,5 @@
 ---
-title: "Tools and Services"
-deck: "Explore free and low-cost services for improving your users‘ digital experience"
+title: "Tools"
+deck: "Software & data projects that make NYC more open, effective and participatory."
 summary: "Explore services that are user-centered, open-source, and built by government for government."
 ---

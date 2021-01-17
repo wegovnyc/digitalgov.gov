@@ -2,14 +2,14 @@
 # See usa_anchor.html for the template
 
 anchor_data:
-  - site_name: Digital.gov
+  - site_name: WeGov.NYC
     site_email: digitalgov@gsa.gov
     site_url: https://digital.gov/
     site_about: https://digital.gov/about
     agency: U.S. General Services Administration
-    agency_acronym: GSA
+    agency_acronym: Sarapis
     agency_logo: /img/gsa-logo-w100.png
-    agency_url: https://www.gsa.gov
+    agency_url: https://sarapis.org/about/
     agency_about_url: https://www.gsa.gov/about
     org_primary: Technology Transformation Services
     org_primary_acronym: TTS

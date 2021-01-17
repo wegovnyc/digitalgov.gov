@@ -11,7 +11,7 @@
           <div class="org-short">
             <div class="org-copy">
               <a href="{{- .agency_url -}}" title="{{- .agency -}}"><img class="org-img" src="{{- .agency_logo | relURL -}}" alt="{{- .agency -}} Logo"></a>
-              <p><a href="#" title="{{- .site_name -}}">{{- .site_name -}}</a> is a product of {{ .agency_acronym }}&#8217;s <a href="{{- .org_primary_url -}}" title="{{- .org_primary -}}">{{- .org_primary -}}</a>{{- if .org_primary -}}, and managed by the <a href="{{- .org_secondary_url -}}" title="{{- .org_secondary -}}">{{- .org_secondary -}}</a>{{- end -}}.</p>
+              <p><a href="#" title="{{- .site_name -}}">{{- .site_name -}}</a> is a project of <a href="{{- .agency_url -}}" title="{{- .agency_acronym -}}">{{ .agency_acronym }}</a>, a US registered non-profit 501.c.3 nonprofit.</p>
             </div>
 
             <button class="btn-learn-more usa-button usa-button--outline usa-button--inverse usa-accordion__button" aria-hidden="false" aria-expanded="false" aria-controls="org-details">
