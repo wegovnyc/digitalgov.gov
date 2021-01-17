@@ -76,31 +76,11 @@
             */}}
             
           </div>
+            {{/* #DEVTEMP: netlify bug 
+              see note.txt 2
 
-          <div class="grid-col-12 tablet:grid-col-3 tablet:order-first">
-            <nav class="topics-sidebar">
-              <ul>
+            */}}
 
-                {{/* Gets all the pages in the /topics directory */}}
-                {{- with ($.Site.GetPage (printf "/%s" "topics")) -}}
-
-                  {{/* Get only the pages that are greater than or equal to 2 */}}
-                  {{- $topics_featured := (where .Pages ".Params.weight" "ge" 2 ) -}}
-
-                  {{/* Loop through all the topics... */}}
-                  {{ range $name, $taxonomy := $topics_featured }}
-
-                    {{/* Get all resource pages with this current taxonomy */}}
-                    {{- $resources_by_topic := (where .Pages "Section" "resources") -}}
-                    {{- if $resources_by_topic -}}
-                      {{- $slug := .RelPermalink -}}
-                      <li><a href="#{{- path.Base .RelPermalink -}}"><span>{{- .Title -}}</span></a></li>
-                    {{- end -}}
-                  {{- end -}}
-                {{- end -}}
-
-              </ul>
-            </nav>
             <p class="more"><a href="{{- "/topics" | absURL -}}"><span>See all topics</span> <i class="fas fa-arrow-circle-right"></i></a></p>
           </div>
 
