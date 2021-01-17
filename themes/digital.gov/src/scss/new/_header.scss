@@ -16,6 +16,7 @@
 				@include u-text('black');
 			}
 			img{
+				max-height: 3rem;
 				@include u-margin-right(1);
 				@include u-width('card');
 				@include at-media('tablet') {
