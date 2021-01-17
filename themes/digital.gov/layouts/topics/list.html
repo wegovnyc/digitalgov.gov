@@ -40,9 +40,9 @@
             {{/* Gets the resource .Pages associated with this topic */}}
             {{- $resources := (where .Pages "Section" "resources") -}}
             {{/* Pass $resources to the collection template */}}
-            {{- if $resources -}}
-              {{- partial "core/collection" (dict "list" $resources "heading" (print "Resources on " .Title)) -}}
-            {{- end -}}
+            <!-- {{- if $resources -}} -->
+              <!-- {{- partial "core/collection" (dict "list" $resources "heading" (print "Resources on " .Title)) -}} -->
+            <!-- {{- end -}} -->
 
             {{/* Gets the services .Pages associated with this topic */}}
             {{- $services := (where .Pages "Section" "services") -}}
