@@ -112,10 +112,10 @@ menu:
       Identifier      : "resources"
       URL             : "/resources/"
       Weight          : 3
-    - Name            : "Communities"
-      Identifier      : "communities"
-      URL             : "/communities/"
-      Weight          : 4
+    # - Name            : "Communities"
+      # Identifier      : "communities"
+      # URL             : "/communities/"
+      # Weight          : 4
     - Name            : "Tools"
       Identifier      : "tools"
       URL             : "/services/"

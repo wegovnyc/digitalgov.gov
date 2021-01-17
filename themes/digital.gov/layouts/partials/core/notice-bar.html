@@ -1,4 +1,6 @@
-{{- $current := "https://digital.gov" -}}
+<!--
+  #DEVTEMP: until build strategy makes sense
+  {{- $current := "https://digital.gov" -}}
 {{- if eq ($.Scratch.Get "env") "site" -}}
 {{- else -}}
   {{- if eq (printf "%v" $.Site.BaseURL) "//localhost:1313/" -}}
@@ -13,4 +15,4 @@
     </div>
   </section>
   {{- end -}}
-{{- end -}}
+{{- end -}} -->
