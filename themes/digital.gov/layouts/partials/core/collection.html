@@ -1,8 +1,8 @@
 {{/* Gets the full array of items passed into the partial */}}
-{{- $list := .list -}}
 
 {{/* If there are any items in the array at all... */}}
-{{- if $list -}}
+{{- if .list -}}
+{{- $list := .list -}}
 <div class="collection">
 
   {{/* Checks if there a heading is set in the partial */}}
