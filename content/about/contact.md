@@ -1,29 +1,22 @@
 ---
 title: "Contact Us"
-deck: "We are human, we promise."
-summary: "How to contact the Digital.gov team."
+deck: "Let's make New York City better, together."
+summary: "How to contact the WeGov.NYC team."
 
 ---
 
-**Digital.gov** is made up of a cross-functional team of writers, editors, strategists, technologists, and designers who all work at the Technology Transformation Services (TTS) at the General Services Administration (GSA).
+**WeGov.NYC** is made by and for people using technology to improve New York City. 
 
-**Digital.gov:** Sara Cope, Toni Bonitto <br/>
-**Communities:**  Alexandar Schulte <br/>
-**Video and Events:** Gabrielle Fratanduono, Mara Goldberg <br/>
-**U.S. Web Design System:** Dan Williams <br/>
+**Lead:** Devin Balkind, Sarapis<br/>
 
-For a wider list of contacts, see our [**Directory of services, tools, and teams**]({{< ref "/services/directory.md" >}}) »
+:envelope: Questions or feedback? send an email to [info@wegov.nyc](info@wegov.nyc).
 
-:envelope: Questions or feedback? send an email to Sara Cope or Toni Bonitto at [digitalgov@gsa.gov](mailto:digitalgov@gsa.gov).
-
-:video_camera: For all media or speaker inquiries, please [email GSA’s Office of Strategic Communication](mailto:press@gsa.gov) (OSC).
-
+**WeGov.NYC** is a fork of Digital.Gov, a website built by people at the Technology Transformation Services (TTS) at the General Services Administration (GSA). Their goal is to improve how the federal government uses digital technologies. Our goal is to improve how New York City government uses digital. We love their site, are inspired by their work and thank them for posting it to Github so we could appropriate it for our use case!
 ---
 
 **On social media**<br/>
 
-- Follow [@digital_gov on Twitter](https://twitter.com/digital_gov/)
-- Digital.gov on [GitHub](https://github.com/GSA/digitalgov.gov)
-- Join our [Facebook page](https://www.facebook.com/DigitalGov)
+- Follow [@wegovnyc Twitter](https://twitter.com/wegovnyc/)
+- Digital.gov on [GitHub](https://github.com/wegovnyc)
+- Join our [Facebook page](https://www.facebook.com/wegovnyc)
 - Subscribe to our [newsletter]({{< ref "/about/subscribe.md" >}})
-- Join a [community of practice]({{< ref "/communities/_index.md" >}})
