@@ -87,6 +87,17 @@
       }
     }
   }
+  .sub-box-social {
+    @include u-margin-top(3);
+    display: flex;
+    justify-content: space-evenly;
+    a{
+      color: #141820;
+      &:hover{
+        color: #0050d8;
+      }
+    }
+  }
   .collection{
     @include u-margin-bottom(0);
     @include u-padding-x(2);
