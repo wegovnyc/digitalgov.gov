@@ -65,7 +65,7 @@ jQuery(document).ready(function($) {
                 "<pre>{{< img src=\""+uid+"\" >}}</pre>", // shortcode
               "</div>",
               // "<p class='edit btn'><a target='_new' href='https://github.com/GSA/digitalgov.gov/edit/main/data/images/"+uid+".yml' title='view on GitHub'>Edit on GitHub »</a></p>",
-              "<p class='edit btn'><a target='_new' href='https://github.com/FelDev/digitalgov.gov/edit/main/data/images/"+uid+".yml' title='view on GitHub'>Edit on GitHub »</a></p>",
+              "<p class='edit btn'><a target='_new' href='https://github.com/wegovnyc/digitalgov.gov/edit/main/data/images/"+uid+".yml' title='view on GitHub'>Edit on GitHub »</a></p>",
             "</div>",
             "<p class='meta'>Uploaded on "+date+"</p>",
           "</div>",
