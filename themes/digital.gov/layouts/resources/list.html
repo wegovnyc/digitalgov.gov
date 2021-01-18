@@ -74,9 +74,10 @@
               see note.txt 1
 
               {{- with ($.Site.GetPage (printf "/%s" "topics")) -}}
-            */}}
-            {{- with (.Site.GetPage "/topics") -}}
-              {{ . }}
+              {{- with (where (where $.Site.Pages "Section" "topics") .Params.isIndexPage true) -}}
+              */}}
+              
+              {{- with (where (.Site.GetPage "/topics") "kind" "page") -}}
               {{/* Get only the pages that are greater than or equal to 2 */}}
               {{- $topics_featured := (where .Pages ".Params.weight" "ge" 2 ) -}}
 
