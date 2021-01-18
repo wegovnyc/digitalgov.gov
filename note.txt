@@ -1,3 +1,7 @@
+Search for pdfs
+/[pdf].*.pdf/
+content/news/2014
+
 1
 {{/*
 {{- with ($.Site.GetPage (printf "/%s" "topics")) -}}
