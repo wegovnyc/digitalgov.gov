@@ -1,0 +1,8 @@
+[build]
+  command = "gulp build-assets && hugo"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.78.2"
+  HUGO_ENABLEGITINFO = "true"
+  NODE_VERSION = "10.21.0"
