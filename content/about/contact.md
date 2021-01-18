@@ -17,6 +17,6 @@ summary: "How to contact the WeGov.NYC team."
 **On social media**<br/>
 
 - Follow [@wegovnyc Twitter](https://twitter.com/wegovnyc/)
-- Digital.gov on [GitHub](https://github.com/wegovnyc)
+- WeGov.NYC on [GitHub](https://github.com/wegovnyc)
 - Join our [Facebook page](https://www.facebook.com/wegovnyc)
 - Subscribe to our [newsletter]({{< ref "/about/subscribe.md" >}})
