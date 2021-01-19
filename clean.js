@@ -1,3 +1,9 @@
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+// * Just a helper script used to delete content older than 2019
+// * Can be deleted safely
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
 const neededFiles = [
   "2014-07-07-user-experience-ux-vs-customer-experience-cx-whats-the-dif.md",
   "2014-07-01-multilingual-digital-content.md",
@@ -261,7 +267,7 @@ var walk = function(dir, done) {
     });
   });
 };
-walk("./content/news/2012", function(err, results) {
+walk("./content/news/2018", function(err, results) {
   if (err) throw err;
   console.log(results);
   results.forEach(r => {
@@ -281,3 +287,90 @@ walk("./content/news/2012", function(err, results) {
 });
 
 
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+// * j.js 👇
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+// let files = [
+//   '2013-04-19-social-media-metrics-for-federal-agencies.md',
+//   '2013-06-19-5-steps-for-delivering-a-better-customer-experience.md',
+//   '2013-07-25-noaas-whale-alert-ship-strike-reduction-for-right-whales-app.md',
+//   '2013-08-20-embracing-responsive-design.md',
+//   '2013-09-18-making-mobile-gov-user-experience-recommendations.md',
+//   '2013-10-16-twitter-chats-for-federal-agencies.md',
+//   '2013-12-12-9-reasons-your-agency-should-have-a-cms.md',
+//   '2013-12-12-9-reasons-your-agency-should-have-a-cms.md',
+//   '2014-01-28-innovation-means-more-better-cost-effective-digital-training.md',
+//   '2014-01-30-responsive-web-design-workshop-why-how-and-whats-next.md',
+//   '2014-02-18-state-of-the-socialgov-2014.md',
+//   '2014-04-08-tell-us-your-internet-of-things-challenges.md',
+//   '2014-04-22-trends-on-tuesday-how-contact-centers-are-adapting-to-the-mobile-user.md',
+//   '2014-04-22-trends-on-tuesday-how-contact-centers-are-adapting-to-the-mobile-user.md',
+//   '2014-05-12-video-blog-sarah-crane-usa-gov.md',
+//   '2014-05-19-video-blog-part-2-sarah-crane-usa-gov.md',
+//   '2014-06-10-digitalgov-irl-6-ways-to-get-it-right.md',
+//   '2014-06-10-trends-on-tuesday-time-on-mobile-surpasses-pc-usage.md',
+//   '2014-06-16-government-cx-where-do-you-find-the-right-foundational-metrics.md',
+//   '2014-06-17-trends-on-tuesday-mobile-location-data.md',
+//   '2014-06-19-dot-safercar-app-goes-android.md',
+//   '2014-06-19-dot-safercar-app-goes-android.md',
+//   '2014-07-08-trends-on-tuesday-what-does-mobile-first-video-look-like.md',
+//   '2014-08-13-photo-carousels-on-mobile-websites-use-with-caution.md',
+//   '2014-09-04-census-promotes-mobile-apps-front-and-center.md',
+//   '2014-10-23-web-design-changes-let-the-metrics-be-your-guide.md',
+//   '2014-10-31-whats-happening-with-the-internet-of-things.md',
+//   '2014-11-10-4-tips-on-great-survey-design.md',
+//   '2014-11-14-institute-for-education-sciences-usability-case-study.md',
+//   '2014-11-17-user-experience-impossible-the-line-between-accessibility-and-usability.md',
+//   '2014-11-24-placeholder-text-think-outside-the-box.md',
+//   '2014-11-26-usability-events-round-up-2014.md',
+//   '2015-01-06-trends-on-tuesday-phablets-top-tablets-in-post-holiday-activations.md',
+//   '2015-01-12-15-government-customer-service-trends-for-2015.md',
+//   '2015-01-13-trends-on-tuesday-responsive-web-design-implementation-happening-piecemeal.md',
+//   '2015-01-13-trends-on-tuesday-responsive-web-design-implementation-happening-piecemeal.md',
+//   '2015-01-15-the-future-will-be-printed-in-3d.md',
+//   '2015-01-20-trends-big-data-and-gov-in-2015.md',
+//   '2015-01-23-new-ed-gov-homepage-and-more.md',
+//   '2015-01-27-trends-on-tuesday-mobile-marketing-on-the-rise.md',
+//   '2015-01-27-trends-on-tuesday-mobile-marketing-on-the-rise.md',
+//   '2015-01-28-the-api-briefing-nasa-and-usps-explore-the-holographic-computing-frontier.md',
+//   '2015-02-10-trends-on-tuesday-smartphone-growth-reaches-1-3-billion-in-2014.md',
+//   '2015-02-24-trends-on-tuesday-mobile-web-lessons-from-the-crowdsource-mobile-testing-program.md',
+//   '2015-02-24-trends-on-tuesday-mobile-web-lessons-from-the-crowdsource-mobile-testing-program.md',
+//   '2015-02-24-trends-on-tuesday-mobile-web-lessons-from-the-crowdsource-mobile-testing-program.md',
+//   '2015-03-12-the-new-fedramp-gov-is-here.md',
+//   '2015-03-19-turning-government-data-into-better-public-service.md',
+//   '2015-05-04-usa-gov-in-beta-tell-us-what-you-think.md',
+//   '2015-05-20-top-5-ways-to-increase-email-survey-responses.md']
+// const ascending = files.sort((a, b) => a.localeCompare(b))
+
+// "content/news/2013/08/2013-08-20-embracing-responsive-design.md",
+// "content/news/2013/08/2013-08-20-embracing-responsive-design.md",
+// "content/news/2014/04/2014-04-08-tell-us-your-internet-of-things-challenges",
+// "content/news/2014/04/2014-04-08-tell-us-your-internet-of-things-challenges",
+// "content/news/2014/04/2014-04-08-tell-us-your-internet-of-things-challenges",
+// "content/news/2014/06/2014-06-17-trends-on-tuesday-mobile-location-data.md",
+// "content/news/2014/06/2014-06-17-trends-on-tuesday-mobile-location-data",
+// "content/news/2014/06/2014-06-17-trends-on-tuesday-mobile-location-data",
+// "content/news/2014/06/2014-06-19-dot-safercar-app-goes-android.md",
+// "content/news/2014/09/2014-09-04-census-promotes-mobile-apps-front-and-center",
+// "content/news/2014/09/2014-09-04-census-promotes-mobile-apps-front-and-center.md",
+// "content/news/2014/10/2014-10-31-whats-happening-with-the-internet-of-things.md",
+// "content/news/2014/11/2014-11-07-welcome-to-user-experience-month.md",
+// "content/news/2014/11/2014-11-07-welcome-to-user-experience-month.md",
+// "content/news/2014/11/2014-11-07-welcome-to-user-experience-month.md",
+// "content/news/2014/11/2014-11-26-thanksgiving-avoid-awkward-family-dinners-with-the-federal-apps-mobile-directory",
+// "content/news/2014/11/2014-11-26-thanksgiving-avoid-awkward-family-dinners-with-the-federal-apps-mobile-directory",
+// "content/news/2015/01/2015-01-06-trends-on-tuesday-phablets-top-tablets-in-post-holiday-activations",
+// "content/news/2015/01/2015-01-06-trends-on-tuesday-phablets-top-tablets-in-post-holiday-activations",
+// "content/news/2015/01/2015-01-06-trends-on-tuesday-phablets-top-tablets-in-post-holiday-activations",
+// "content/news/2015/01/2015-01-12-15-government-customer-service-trends-for-2015",
+// "content/news/2015/01/2015-01-15-the-future-will-be-printed-in-3d.md",
+// "content/news/2015/01/2015-01-13-trends-on-tuesday-responsive-web-design-implementation-happening-piecemeal",
+// "content/news/2015/01/2015-01-20-trends-big-data-and-gov-in-2015",
+// "content/news/2015/02/2015-02-24-trends-on-tuesday-mobile-web-lessons-from-the-crowdsource-mobile-testing-program",
+// "content/news/2015/01/2015-01-29-how-government-will-accelerate-anytime-anywhere-services-and-information-in-2015",
+// "content/news/2015/01/2015-01-29-how-government-will-accelerate-anytime-anywhere-services-and-information-in-2015",
+// "content/news/2015/05/2015-05-04-usa-gov-in-beta-tell-us-what-you-think",
+// "content/news/2015/05/2015-05-20-top-5-ways-to-increase-email-survey-responses.md",

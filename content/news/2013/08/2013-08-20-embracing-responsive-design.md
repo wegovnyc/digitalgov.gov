@@ -34,7 +34,3 @@ A lot of planning went into the redesign efforts.
 
 Let us know what you think. With the ability to count traffic for desktop, tablet and mobile phones separately, we’re anxious to see what our numbers tell us about this approach over time. 
 
-More responsive design examples: 
-
-* [Medicare.gov]({{< ref "2013-06-27-medicare-gov-mobile-website.md" >}})
-* [Housing & Urban Development Office of Inspector General]({{< ref "2013-08-01-hud-office-of-inspector-general-responsive-design-website.md" >}})
