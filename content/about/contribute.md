@@ -2,8 +2,8 @@
 slug: contribute
 date: 2019-07-10 4:00:00 -0500
 title: Contribute to WeGov.nyc
-deck: "Have a case study to share? Did your team recently launch something new? Here is what we're looking for."
-summary: "Have a case study to share? Did your team recently launch something new? Here is what we're looking for."
+deck: "Have a case study to share? Did your team recently launch something new? We want to help you get the word out!"
+summary: "Have a case study to share? Did your team recently launch something new? We want to help you get the word out!"
 aliases:
   - /join-digitalgov/
   - /about/join/
@@ -12,16 +12,22 @@ aliases:
 
 ---
 
-While our primary mission is helping New Yorkers implement new technologies or innovations to improve the city, WeGov.NYC has several channels to reach both stakeholders. We send out a newsletter to a broad range of people, host informational blog posts, resources, and videos on our site, as well as offer various learning opportunities.
+Are you using technology to improve New York City? Did you read or write something that you want other people in New York City's civic and public interest technology communities to know about? 
 
-We accept content from people working on civic and public interest technology projects including people working as an inidivudal, with for-profits, nonprofits, and government agencies. [Learn more about what our readers need »](#what-our-readers-need)
+## Send Us Content
 
+Submit news and event information, blog posts, resources and more to us and, if we like it, we'll send it out in our newsletter, publish it on our site, upload it to our resource directory, post it to social media, and more!
+
+We accept contributions from anyone working on civic and public interest technology projects including people working as an inidivudal, with for-profits, nonprofits, and government agencies. 
+
+<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shruFVtq5cZLeRS5p?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="1889.88889" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+## Content Ideas
+ 
 - **News, Updates, and Blog Posts** — Examples of success are some of the most powerful tools toward convincing people to follow modern practices. We are looking for posts that show what you are working on, what challenges you’re facing, or how you’re working to make digital better for the public.
 - **Case Studies** — We are looking for examples of how people, projects and agencies are using digital technologies to improve the city..
 - **Informational Events** — WeGov.NYC produces a calendar of events for people working to improve the city.
 - **Resources, Tools, and Services** — To help people confidently take steps toward working smarter, we try to collect a list of available implementation playbooks, guidance documents, checklists, toolkits, style guides, and other similar content organized by specific topic areas.
-
-<!-- {{< hs-form-contribute >}} -->
 
 ## Submission Considerations
 
