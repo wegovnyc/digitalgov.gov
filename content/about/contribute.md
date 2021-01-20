@@ -2,8 +2,8 @@
 slug: contribute
 date: 2019-07-10 4:00:00 -0500
 title: Contribute to WeGov.nyc
-deck: "Have a case study to share? Did your team recently launch something new? We want to help you get the word out!"
-summary: "Have a case study to share? Did your team recently launch something new? We want to help you get the word out!"
+deck: "Are you using technology to improve New York City? Did you read or write something that you want other people in New York City's civic and public interest technology communities to know about? "
+summary: "Are you using technology to improve New York City? Did you read or write something that you want other people in New York City's civic and public interest technology communities to know about? "
 aliases:
   - /join-digitalgov/
   - /about/join/
@@ -11,10 +11,6 @@ aliases:
   - /contribute/
 
 ---
-
-Are you using technology to improve New York City? Did you read or write something that you want other people in New York City's civic and public interest technology communities to know about? 
-
-## Send Us Content
 
 Submit news and event information, blog posts, resources and more to us and, if we like it, we'll send it out in our newsletter, publish it on our site, upload it to our resource directory, post it to social media, and more!
 
@@ -40,9 +36,7 @@ Just a few quick notes to consider before submitting your contribution request:
 - **Visuals/Media** — Photos, screenshots, charts, and other visuals help engage the reader and keep them interested in your content. If you have visuals that we can include, please try to identify the highest resolution of the file possible (i.e., usually anything 150 dpi or greater works best) and we can work with you to adjust the image to an appropriate format and file size. Alternative text also must be provided for accessibility tools like screen readers.
 - **Timing** — We generally try to post content within two weeks of your submission. Events are most successful when we post them four weeks out from the event date. So we ask that you take this into account before submitting an event. Videos from events are usually posted within a week after an event once closed captioning and other supporting information is available.
 
-## Start Collaborating
-
-**Here are some ways to start collaborating**
+**Have Questions?**
 
 - Get in touch with us by emailing [info@wegov.nyc](mailto:info@wegov.nyc)
 - [Subscribe to our newsletter]({{< ref "/about/subscribe.md" >}})
