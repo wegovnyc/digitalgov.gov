@@ -7,25 +7,25 @@ anchor_data:
     site_url: https://wegov.nyc/
     site_about: https://wegov.nyc/about
     agency: Sarapis
-    agency_acronym: 
-    agency_logo: 
+    agency_acronym: Sarapis
+    agency_logo: /img/gsa-logo-w100.png
     agency_url: https://sarapis.org/about/
-    agency_about_url: 
-    org_primary: Sarapis
-    org_primary_acronym: 
-    org_primary_url: https://wegov.nyc/
-    org_primary_email: info@wegov.nyc
-    org_primary_about: https://wegov.nyc/
+    agency_about_url: https://www.gsa.gov/about
+    org_primary: Technology Transformation Services
+    org_primary_acronym: TTS
+    org_primary_url: https://www.gsa.gov/tts/
+    org_primary_email: tts-info@gsa.gov
+    org_primary_about: https://www.gsa.gov/tts/
     org_primary_bio: "This website was forked from Digital.Gov. Digital.gov is a product of the General Service Administration’s Technology Transformation Service (TTS). The mission of the TTS is to Design and deliver a digital government with and for the American public. The team at WeGovNYC thinks that New York City needs its own version of the TTS to modernize NYC government's digital operations. We also think NYC needs its own version of Digital.gov to build community and give support to the civil servants doing that critical work. We built WeGov.NYC because NYC’s government didn’t. The WeGovNYC team has no formal relationship with the Digital.Gov team. We love their work and thank them for releasing it to the public. We also hope they forgive us for our sloppy fork. We know that some broken links and confusing design elements exist because of the fork. Please let us know how we can improve.”
-    org_secondary: 
-    org_secondary_acronym:
-    org_secondary_url: 
-    org_secondary_email: 
-    org_secondary_about: 
-    org_secondary_bio:
-    foia_request_url: 
-    fraud_waste_abuse_url: 
-    no_fear_act_url: 
-    budget_performance_url:
-    accessibility_url: 
-    usagov_contact_url:
+    org_secondary: Office of Solutions
+    org_secondary_acronym: TTS Solutions
+    org_secondary_url: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions
+    org_secondary_email: tts-info@gsa.gov
+    org_secondary_about: https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions
+    org_secondary_bio: "TTS Solutions is a portfolio of products and services that help agencies improve delivery of information and services to the public."
+    foia_request_url: "https://www.gsa.gov/reference/freedom-of-information-act-foia"
+    fraud_waste_abuse_url: "https://www.gsaig.gov/"
+    no_fear_act_url: "https://www.gsa.gov/about-us/organization/office-of-civil-rights/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002"
+    budget_performance_url: "https://www.gsa.gov/reference/reports/budget-performance"
+    accessibility_url: "https://www.gsa.gov/website-information/accessibility-aids"
+    usagov_contact_url: "https://www.usa.gov/contact"
