@@ -10,13 +10,13 @@
         <div class="grid-col-12">
           <div class="org-short">
             <div class="org-copy">
-              {{/*  <a href="{{- .agency_url -}}" title="{{- .agency -}}"><img class="org-img" src="{{- .agency_logo | relURL -}}" alt="{{- .agency -}} Logo"></a>  */}}
-              <p><a href="#" title="{{- .site_name -}}">{{- .site_name -}}</a> is a project of <a href="{{- .agency_url -}}" title="{{- .agency_acronym -}}">{{ .agency_acronym }}</a>, a US registered non-profit 501.c.3 nonprofit. This website is a fork of Digital.gov.</p>
-              <button class="btn-learn-more usa-button usa-button--outline usa-button--inverse usa-accordion__button" aria-hidden="false" aria-expanded="false" aria-controls="org-details">
-                <span>Learn&nbsp;more</span>
-              </button>
+              <a href="{{- .agency_url -}}" title="{{- .agency -}}"><img class="org-img" src="{{- .agency_logo | relURL -}}" alt="{{- .agency -}} Logo"></a>
+              <p><a href="#" title="{{- .site_name -}}">{{- .site_name -}}</a> is a project of <a href="{{- .agency_url -}}" title="{{- .agency_acronym -}}">{{ .agency_acronym }}</a>, a 501.c.3 nonprofit.</p>
             </div>
 
+            <button class="btn-learn-more usa-button usa-button--outline usa-button--inverse usa-accordion__button" aria-hidden="false" aria-expanded="false" aria-controls="org-details">
+              <span>Learn&nbsp;more</span>
+            </button>
           </div>
         </div>
       </div>
@@ -26,11 +26,10 @@
           <div class="grid-col-12 tablet-lg:grid-col-6">
             <div class="org-copy">
               {{- if .org_primary_bio }}
-                <p>{{- .org_primary_bio }} 
-                  {{/*  <a class="more" href="{{- .org_primary_url -}}" title="Learn more about {{- .org_primary -}}">Read more</a></p>  */}}
+                <p>{{- .org_primary_bio }} <a class="more" href="{{- .org_primary_url -}}" title="Learn more about {{- .org_primary -}}">Read more</a></p>
               {{- end -}}
               {{- if .org_secondary_bio -}}
-                {{/*  <p>{{- .org_secondary_bio }} <a class="more" href="{{- .org_secondary_url -}}" title="Learn more about {{- .org_secondary -}}">Read more</a></p>  */}}
+                <p>{{- .org_secondary_bio }} <a class="more" href="{{- .org_secondary_url -}}" title="Learn more about {{- .org_secondary -}}">Read more</a></p>
               {{- end -}}
             </div>
           </div>
@@ -38,6 +37,15 @@
           <div class="grid-col-12 tablet-lg:grid-col-5 tablet-lg:grid-offset-1">
             <div class="org-links">
               <p><i class="fas fa-envelope"></i> For questions about this website, email <a href="mailto:{{- .site_email -}}">{{- .site_email -}}</a>.</p>
+
+              <p>Additional information about the {{ .agency }} ({{ .agency_acronym }}) can be found at <a href="{{- .agency_about_url -}}" title="More about the {{- .agency_acronym -}}">{{- .agency_about_url -}}</a></p>
+              <ul>
+                <li><a href="{{- .fraud_waste_abuse_url -}}" title="Report fraud, waste, or abuse to the Office of the Inspector General">Report fraud, waste, or abuse to the Office of the Inspector General</a></li>
+                <li><a href="{{- .foia_request_url -}}" title="Submit a Freedom of Information Act (FOIA) request">Submit a Freedom of Information Act (FOIA) request</a></li>
+                <li><a href="{{- .budget_performance_url -}}" title="View budget and performance reports">View budget and performance reports</a></li>
+                <li><a href="{{- .accessibility_url -}}" title="View accessiblity statement">View accessiblity statement</a></li>
+                <li><a href="{{- .no_fear_act_url -}}" title="View No FEAR Act data">View No FEAR Act data</a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -46,8 +54,6 @@
   </div>
 </div>
 
-{{/*
-  #DELETE
 <div class="component-anchor-support">
   <div class="grid-container grid-container-desktop">
     <div class="grid-row tablet-lg:grid-gap-2">
@@ -59,7 +65,7 @@
       </div>
     </div>
   </div>
-</div>  */}}
+</div>
 </section>
 
 {{- end -}}
